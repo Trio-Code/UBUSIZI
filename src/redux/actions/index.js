@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'https://ubusizi-api.herokuapp.com',
+  baseURL: 'https://ubusiziart-api.herokuapp.com',
 });
 
 export const userConfig = {
