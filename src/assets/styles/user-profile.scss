@@ -1,0 +1,752 @@
+.username {
+  font-size: 25px;
+  font-weight: normal !important;
+}
+.underline {
+  border-bottom: 3px solid black;
+}
+.profilepic {
+  position: relative;
+  border-radius: 50%;
+  width: 160px;
+  height: 140px;
+}
+.edit-btn {
+  border-color: gray !important;
+  font-size: small;
+  margin-top: 10px;
+  color: #333333 !important;
+  font-weight: bold;
+  outline: none !important;
+  box-shadow: none !important;
+  &:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  &:focus {
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+.follow-content-div {
+  color: #333333;
+  font-size: 15px;
+}
+.full-name-div {
+  color: #333333;
+  font-size: 15px;
+}
+.bio-content {
+  color: #333333;
+  font-size: 14.5px;
+}
+.cog {
+  font-size: 25px;
+}
+.p-margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.profile-post-card .post-card-res-img .card-res-img {
+  width: 100%;
+  height: 300px;
+}
+.profile-post-card .card-res-img {
+  background-size: 100% 300px;
+}
+.txt-card {
+  width: 100%;
+  height: 300px;
+}
+.txt-card .post-text-display-text {
+  font-size: 15px;
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+}
+.txt-card.font-brush-script .post-text-display-text {
+  line-height: 1.2;
+  font-size: 22px !important;
+}
+.fmargin {
+  margin-left: 50px;
+}
+
+.staff .img {
+  height: 180px;
+  width: 180px;
+  display: block;
+  background-position: top center;
+  position: relative;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.my-profile-header-sm {
+  display: none;
+}
+.my-profile-header-sm {
+  display: none;
+}
+
+.video-card {
+  position: relative;
+  height: 300px;
+}
+
+.my-react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+}
+
+.profile-modal-display-thumb-div {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.profile-modal-display-thumb-div .my-react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+}
+
+.profile-nav-select {
+  width: 90%;
+  margin: 20px auto 0px auto !important;
+}
+.profile-nav-select.with-category {
+  width: 100%;
+  margin: 20px auto 0px auto !important;
+}
+
+.profile-nav-select button {
+  margin-right: 15% !important;
+  &:last-child {
+    margin-right: 0px !important;
+  }
+  &:focus {
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  &:hover {
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+// Toogling Modal and Link on Profile
+
+// MEDIA QUERIES
+
+@media (max-width: 992px) {
+  .user-posts-content {
+    width: 100%;
+  }
+  .user-posts-content .col-4 {
+    padding: 0px !important;
+  }
+  .profile-post-card .post-card-res-img .card-res-img {
+    width: 100%;
+    height: 200px;
+  }
+  .profile-post-card .card-res-img {
+    background-size: 100% 200px;
+  }
+  .user-posts-content .profile-post-card .video-card {
+    height: 200px;
+  }
+  .user-posts-content .profile-disp-video-thumbnail {
+    height: 200px;
+  }
+  .txt-card {
+    height: 200px;
+    padding-top: 3.5% !important;
+    padding-bottom: 3% !important;
+    word-wrap: break-word !important;
+    overflow-y: hidden;
+  }
+  .txt-card .post-text-display-text {
+    font-size: 15px !important;
+  }
+  .follow-span .text-gray {
+    color: $dark;
+    font-weight: bold;
+  }
+  .bio-header {
+    color: $dark;
+    font-weight: bolder;
+    display: block;
+  }
+  .full-name-div span {
+    font-size: 16px !important;
+  }
+  .profile-nav-select {
+    width: 100%;
+    margin: 20px auto 0px auto !important;
+  }
+  .profile-nav-select button {
+    margin-right: 60px !important;
+  }
+  .profile-nav-select button span.ml-2.font-weight-bold {
+    font-size: 16px;
+  }
+  .profl-nav-icon {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .sm-card-body-display {
+    display: block !important;
+  }
+  .lg-card-body-display {
+    display: none !important;
+  }
+  .post-txt-lg-display {
+    display: none !important;
+  }
+  .post-txt-sm-display {
+    display: block !important;
+  }
+  .video-profile-lg-display {
+    display: none !important;
+  }
+  .video-profile-sm-display {
+    display: block !important;
+  }
+  .my-profile-header {
+    display: none;
+  }
+  .my-profile-header-sm {
+    display: block;
+  }
+  .staff .img {
+    height: 150px;
+    width: 150px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    position: relative;
+    left: -6px;
+  }
+  .my-profile-header-sm .col-8 {
+    padding-left: 15% !important;
+  }
+  .p-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cog {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  .sm-username {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .bio-content {
+    margin-top: 10px !important;
+    font-size: 14px;
+  }
+  .follow-content-div {
+    margin-top: 5px;
+  }
+  .follow-content-div .follow-span {
+    display: inline-block;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .follow-span .content-head {
+    display: block;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+  }
+  .follow-span .content-par {
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+  }
+  .follow-span .text-gray {
+    color: $dark;
+    font-weight: bold;
+  }
+  .user-posts-content {
+    width: 100%;
+  }
+  .user-posts-content .col-4 {
+    padding: 0px !important;
+  }
+  .user-posts-content .post-loader-div {
+    display: block;
+    position: relative;
+  }
+  .user-posts-content .post-loader-div .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.2em;
+  }
+  .profile-post-card .post-card-res-img .card-res-img {
+    width: 100%;
+    height: 150px;
+  }
+  .profile-post-card .card-res-img {
+    background-size: 100% 150px;
+  }
+  .user-posts-content .profile-post-card .video-card {
+    height: 150px;
+  }
+  .user-posts-content .profile-disp-video-thumbnail {
+    height: 150px;
+  }
+  .txt-card {
+    height: 150px;
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+    word-wrap: break-word !important;
+    overflow-y: hidden;
+  }
+  .txt-card .post-text-display-text {
+    font-size: 13px !important;
+  }
+  .bio-header {
+    color: $dark;
+    font-weight: bolder;
+    display: block;
+  }
+  .full-name-div span {
+    font-size: 13px !important;
+  }
+  .edit-btn {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    margin-bottom: 5px !important;
+    font-size: 13px !important;
+  }
+  .my-profile-header .btn-warning {
+    font-size: 12px;
+  }
+  .profile-nav-select {
+    width: 100%;
+    margin: 20px auto 0px auto !important;
+  }
+  .profile-nav-select button {
+    margin-right: 45px !important;
+    padding: 5px 0px;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .profile-nav-select button span.ml-2.font-weight-bold {
+    font-size: 16px;
+  }
+  .profl-nav-icon {
+    font-size: 15px;
+  }
+  .underline {
+    border-bottom: 2px solid black;
+  }
+  .user-posts-content {
+    padding-bottom: 100px !important;
+  }
+  .user-posts-content div.row {
+    margin-top: 5px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .user-posts-content .profile-post-card {
+    margin-top: 0px !important;
+  }
+  .col-4.col-lg-4.col-md-4.col-sm-4 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    height: 160px !important;
+  }
+  svg.text-icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  svg.video-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  svg.image-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  svg.grid-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  .poem-dnone {
+    display: none !important;
+  }
+  .staff .img {
+    height: 100px;
+    width: 100px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    position: relative;
+    left: -6px;
+  }
+  .p-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .my-profile-header-sm .col-8 {
+    padding-left: 30px !important;
+  }
+  .cog {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  .sm-username {
+    font-size: 14px;
+    margin-top: 10px !important;
+  }
+  .bio-content {
+    margin-top: 5px !important;
+    font-size: 14px;
+  }
+  .follow-content-div {
+    margin-top: 5px;
+  }
+  .follow-content-div .follow-span {
+    display: inline-block;
+    margin-right: 8px;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .follow-span .content-head {
+    display: block;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: center;
+  }
+  .follow-span .content-par {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+  }
+  .follow-span .text-gray {
+    color: $dark;
+    font-weight: bold;
+  }
+  .user-posts-content {
+    width: 100%;
+  }
+  .user-posts-content .col-4 {
+    padding: 0px !important;
+  }
+  .user-posts-content .post-loader-div {
+    display: block;
+    position: relative;
+  }
+  .user-posts-content .post-loader-div .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.2em;
+  }
+  .profile-post-card .post-card-res-img .card-res-img {
+    width: 100%;
+    height: 120px;
+  }
+  .profile-post-card .card-res-img {
+    background-size: 100% 120px;
+  }
+  .user-posts-content .profile-post-card .video-card {
+    height: 120px;
+  }
+  .user-posts-content .profile-disp-video-thumbnail {
+    height: 120px;
+  }
+  .txt-card {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px !important;
+    padding-bottom: 2px !important;
+    word-wrap: break-word !important;
+    overflow-y: hidden;
+  }
+  .txt-card .post-text-display-text {
+    font-size: 10px !important;
+  }
+  .txt-card.font-brush-script .post-text-display-text {
+    line-height: 1;
+    font-size: 18px !important;
+  }
+  .bio-header {
+    color: $dark;
+    font-weight: bolder;
+    display: block;
+  }
+  .full-name-div span {
+    font-size: 13px !important;
+  }
+  .edit-btn {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    margin-bottom: 5px !important;
+    font-size: 12px !important;
+  }
+  .my-profile-header-sm .btn-warning {
+    width: calc(100% - 25px);
+    font-size: 14px !important;
+  }
+  .my-profile-header .btn-warning {
+    font-size: 12px;
+  }
+  .profile-nav-select {
+    width: 100%;
+    margin: 20px auto 0px auto !important;
+  }
+  .profile-nav-select button {
+    margin-right: 25px !important;
+    padding: 5px 0px;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .profile-nav-select button span.ml-2.font-weight-bold {
+    font-size: 12px;
+  }
+  .profl-nav-icon {
+    font-size: 12px;
+  }
+  .underline {
+    border-bottom: 2px solid black;
+  }
+  .user-posts-content {
+    padding-bottom: 100px !important;
+  }
+  .user-posts-content div.row {
+    margin-top: 5px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .user-posts-content .profile-post-card {
+    margin-top: 0px !important;
+  }
+  .col-4.col-lg-4.col-md-4.col-sm-4 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    height: 130px !important;
+  }
+  svg.text-icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  svg.video-icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  svg.image-icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  svg.grid-icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  .pad-bottom-prof {
+    padding-bottom: 20%;
+  }
+
+  .pad-bottom-prof .col.text-center h4 {
+    font-size: 15px !important;
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 320px) {
+  .staff .img {
+    height: 85px;
+    width: 85px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    position: relative;
+    left: -8px;
+  }
+  .my-profile-header-sm .btn-warning {
+    width: 100%;
+    font-size: 14px !important;
+  }
+  .p-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cog {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  .sm-username {
+    font-size: 14px;
+    margin-top: 10px !important;
+  }
+  .bio-content {
+    margin-top: 5px !important;
+    font-size: 14px;
+  }
+  .follow-content-div {
+    margin-top: 5px;
+  }
+  .follow-content-div .follow-span {
+    display: inline-block;
+    margin-right: 8px;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .follow-span .content-head {
+    display: block;
+    font-weight: bolder;
+    font-size: 13px;
+    text-align: center;
+  }
+  .follow-span .content-par {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+  }
+  .follow-span .text-gray {
+    color: $dark;
+    font-weight: bold;
+  }
+  .user-posts-content {
+    width: 100%;
+  }
+  .user-posts-content .col-4 {
+    padding: 0px !important;
+  }
+  .user-posts-content .post-loader-div {
+    display: block;
+    position: relative;
+  }
+  .user-posts-content .post-loader-div .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.2em;
+  }
+  .profile-post-card .post-card-res-img .card-res-img {
+    width: 100%;
+    height: 110px;
+  }
+  .profile-post-card .card-res-img {
+    background-size: 100% 110px;
+  }
+  .user-posts-content .profile-post-card .video-card {
+    height: 110px;
+  }
+  .user-posts-content .profile-post-card .video-card .my-react-player {
+    height: 110px;
+  }
+  .user-posts-content .profile-disp-video-thumbnail {
+    height: 110px;
+  }
+  .txt-card {
+    width: 100%;
+    height: 110px;
+    padding-top: 10px !important;
+    padding-bottom: 2px !important;
+    word-wrap: break-word !important;
+    overflow-y: hidden;
+  }
+  .txt-card .post-text-display-text {
+    font-size: 10px !important;
+  }
+  .txt-card.font-brush-script .post-text-display-text {
+    line-height: 1;
+    font-size: 17px !important;
+  }
+  .my-profile-header-sm .col-8 {
+    padding-left: 5px !important;
+  }
+  .bio-header {
+    color: $dark;
+    font-weight: bolder;
+    display: block;
+  }
+  .full-name-div span {
+    font-size: 13px !important;
+  }
+  .edit-btn {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    margin-bottom: 5px !important;
+    font-size: 10px !important;
+  }
+  .my-profile-header .btn-warning {
+    font-size: 12px;
+  }
+  .profile-nav-select {
+    width: 100%;
+    margin: 20px auto 0px auto !important;
+  }
+  .profile-nav-select button {
+    margin-right: 15px !important;
+    padding: 5px 0px;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .profile-nav-select button span.ml-2.font-weight-bold {
+    font-size: 12px;
+  }
+  .profl-nav-icon {
+    font-size: 10px;
+  }
+  .underline {
+    border-bottom: 2px solid black;
+  }
+  .user-posts-content {
+    padding-bottom: 100px !important;
+  }
+  .user-posts-content div.row {
+    margin-top: 5px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .user-posts-content .profile-post-card {
+    margin-top: 0px !important;
+  }
+  .col-4.col-lg-4.col-md-4.col-sm-4 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    height: 120px !important;
+  }
+  svg.text-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  svg.video-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  svg.image-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  svg.grid-icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}

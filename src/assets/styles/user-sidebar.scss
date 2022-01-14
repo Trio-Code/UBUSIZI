@@ -1,0 +1,78 @@
+.user-sidebar-text-content {
+  display: flex;
+  align-items: center;
+}
+
+.display-user-sb-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-sb-nav a {
+  font-size: 13px;
+  color: #b5adb2;
+  text-transform: capitalize !important;
+}
+
+.user-sidebar p {
+  font-size: 13px;
+  color: #b5adb2;
+}
+
+.user-sidebar {
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 10px;
+}
+
+.user-sidebar.change-top-size {
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 15% !important;
+}
+
+.header {
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid#d9d9d9;
+  height: 100px;
+}
+.recent {
+  width: 100%;
+  align-items: flex-start;
+}
+.staff3 .img {
+  height: 35px;
+  width: 35px;
+  display: block;
+  background-position: top center;
+  position: relative;
+  border-radius: 50%;
+
+  margin: 0 auto;
+}
+
+.modal-img {
+  height: 80px;
+  width: 80px;
+  display: block;
+  background-position: top center;
+  position: relative;
+  border-radius: 50%;
+}
+@media (max-width: 992px) {
+  .user-sidebar {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .user-sidebar {
+    display: none !important;
+  }
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,83 @@
+.settings {
+  padding: 20px 20px;
+}
+.move-settings-top {
+  padding-top: 10% !important;
+}
+.settings-nav {
+  padding-bottom: 7px;
+  border-bottom: 1px;
+}
+.text-sec {
+  font-size: 15px;
+}
+.set-text {
+  font-size: 50px;
+}
+.setting-icon {
+  font-size: 42px;
+}
+.settings-wrapper {
+  width: 100%;
+  padding-top: 20px;
+}
+.sett-link-divider {
+  border-bottom: 1px solid #d9d9d9;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+  .sett-link-divider {
+    display: block !important;
+  }
+  .sett-link {
+    display: block !important;
+  }
+}
+@media (max-width: 768px) {
+  .move-top {
+    padding-top: 15%;
+  }
+  .settings .set-text {
+    font-size: 40px;
+  }
+  .settings .setting-icon {
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .settings .set-text {
+    font-size: 30px;
+  }
+  .settings .setting-icon {
+    font-size: 30px;
+  }
+  .move-settings-top {
+    padding-top: 22% !important;
+  }
+  .settings .text-secondary.text-sec {
+    text-align: center !important;
+    padding: 0 15px !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 320px) {
+  .settings-wrapper {
+    width: 90% !important;
+    padding-top: 10px;
+    margin: 0px auto 0 auto !important;
+  }
+  .wrapper {
+    width: 100% !important;
+  }
+  .settings .set-text {
+    font-size: 30px;
+  }
+  .settings .setting-icon {
+    font-size: 30px;
+  }
+  .move-settings-top {
+    padding-top: 25% !important;
+  }
+}

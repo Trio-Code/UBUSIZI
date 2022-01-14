@@ -1,0 +1,63 @@
+.followbtn {
+  position: absolute;
+  right: 20px !important;
+}
+.boarder {
+  border-bottom: 1px solid black;
+}
+
+.activity-img-display .activity-img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background-position: top center;
+    position: relative;
+    bottom: 8px;
+    border: 1px solid #d9d9d9;
+  }
+  .text-div{
+    height: 50px;
+    width: 50px;
+    font-size: 8px;
+    overflow: hidden;
+  }
+.activity-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.activity-Header {
+  background-color: white;
+}
+@media (max-width: 992px) {
+  .boarder {
+    border-bottom: none;
+  }
+  .des-width {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .boarder {
+    border-bottom: none;
+  }
+  .des-width {
+    width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  .des-width {
+    width: 80%;
+  }
+  .followbtn {
+    position: none;
+    width: 20%;
+    float: right;
+  }
+  .boarder {
+    border-bottom: none;
+  }
+}
+  

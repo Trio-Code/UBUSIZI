@@ -1,0 +1,169 @@
+/*SIDEBAR*/
+.sidebar {
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding: 0px !important;
+    padding-top: 0px !important; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+    background-color: #343a40 !important;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+    }
+  }
+  
+  .sidebar .dash-nav {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .sidebar a {
+    font-weight: 500;
+    color: #b3b3b3;
+    margin: auto !important;
+    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+    transition: all 0.5s !important;
+    font-size: 14.5px;
+  }
+  
+  .sidebar .nav-link .sidebar-icon {
+    margin-right: 5px;
+  }
+  
+  .sidebar .nav-link.active {
+    border:solid;
+    border-radius: 25px;
+    background-color: #5d6a7d;
+  }
+  
+  .sidebar .nav-link.active:hover {
+    color: $dark;
+  }
+  
+  .sidebar-sticky .dash-nav li a:hover {
+    color: $dark;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .sidebar .dash-nav a:hover .badge-secondary {
+    background-color: #60d1c1 !important;
+    color: #5d6a7d;
+    font-weight: bold !important;
+  }
+  .sidebar .dash-nav .badge-secondary {
+    background-color: #9199a6 !important;
+    color: #f2f2f2;
+    font-weight: bold !important;
+  }
+  .sidebar .dash-nav a.active .badge-secondary {
+    background-color: #f2f2f2 !important;
+    color: #5d6a7d;
+    font-weight: bold !important;
+  }
+  
+  .sidebar-heading {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+  
+  // .drop-nav {
+  
+  // }
+  
+  .drop-nav a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-top: 0px !important;
+    padding-left: 20px !important;
+    font-size: 14px;
+  }
+  
+  .drop-nav a:hover {
+    background-color: transparent !important;
+    color: #111;
+  }
+  
+  .drop-nav a.active {
+    font-weight: normal !important;
+    background-color: transparent !important;
+    color: #111;
+  }
+  .drop-nav a.active:hover {
+    font-weight: normal !important;
+    color: #ffffff;
+    background-color: transparent !important;
+  }
+  
+  // Activity Div
+  .dash-widget {
+    background-color: #fff;
+    border-top: 2px solid #17a2b8;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  .dash-widget-bg {
+    width: 65px;
+    float: left;
+    color: #fff;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50%;
+    font-size: 40px;
+    height: 65px;
+  }
+  
+  .dash-widget-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    color: #6b6d7a;
+  }
+  .dash-widget-info span .activity-icon {
+    width: 16px;
+    color: #f2f2f2;
+    font-size: 10px;
+    height: 14px;
+    line-height: 14px !important;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .dash-widget-info > span.widget-title {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+  .dash-widget-info > span.widget-title a {
+    color: #fff;
+    transition: all 0.6s;
+  }
+  
+  .dash-widget-info > span.widget-title a:hover {
+    text-decoration: none !important;
+    border-bottom: 1px solid #fff;
+  }
+  

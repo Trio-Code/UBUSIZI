@@ -1,0 +1,330 @@
+.post-card-header-content img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.body-content {
+  padding-left: 10% !important;
+  padding-right: 8% !important;
+}
+.user-sidebar img {
+  width: 50px;
+  height: 50px;
+}
+
+.post-card-content {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.drop-icon {
+  vertical-align: middle !important;
+  display: inline-block;
+}
+
+.post-card-drop-menu a {
+  border-bottom: 1px solid #d9d9d9;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.text-card-body-content .post-text-display-text {
+  word-wrap: break-word !important;
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+}
+.pic-card-body-content,
+.pic-card-body-content img {
+  width: 100%;
+  height: 500px;
+}
+
+.card-res-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.post-loader-div {
+  padding-top: 30%;
+  width: 100%;
+  margin: auto;
+  display: block;
+  position: absolute;
+}
+.video-card-body-content {
+  width: 100%;
+  height: 400px;
+}
+
+.post-bg-green {
+  background: linear-gradient(to bottom, #11514f, #106d63, #0f8f7b);
+}
+.post-bg-red {
+  background: linear-gradient(to bottom, #fb4d35, #ed3955, #df2771);
+}
+.post-bg-blue {
+  background: linear-gradient(to bottom, #1680ca, #205abe, #2a37b3);
+}
+.post-bg-dark {
+  background: linear-gradient(to bottom, #152033, #1b2b41, #233952);
+}
+
+.post-text-110 {
+  font-size: 25px;
+  padding-top: 20% !important;
+  padding-bottom: 20% !important;
+}
+.post-text-111-to-350 {
+  font-size: 20px;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+}
+.post-footer-icon {
+  font-size: 25px;
+}
+.post-card-footer-content a:hover {
+  opacity: 0.8;
+  color: #ccc !important;
+}
+.post-card-footer-content a.likes-link:hover {
+  opacity: 0.8;
+  color: $dark !important;
+}
+.post-card-footer-content a.comments-link:hover {
+  opacity: 0.8;
+  color: $secondary !important;
+}
+.post-footer-caption {
+  font-size: 14.5px !important;
+}
+.profile-disp-video-thumbnail {
+  width: 100%;
+  height: 300px;
+  object-fit: cover !important;
+  cursor: pointer !important;
+}
+
+.expand {
+  margin-top: 10px;
+  left: 45%;
+  background-color: transparent;
+  position: relative;
+  z-index: 1000;
+}
+
+.divizer {
+  margin-top: 1px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.icon-footer {
+  font-size: x-large;
+}
+.lc {
+  padding-top: 15px;
+  font-size: x-small;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.down {
+  position: relative;
+  display: block;
+  height: 60px;
+  background: linear-gradient(rgba(252, 252, 253, 0), rgb(255, 255, 255));
+  margin-top: -60px;
+}
+
+.grad {
+  background: linear-gradient(rgba(252, 252, 253, 0), rgb(255, 255, 255));
+}
+.mrgn {
+  margin-left: 100px !important;
+}
+.linewidth {
+  width: 70% !important;
+  height: 500px !important;
+  overflow-y: hidden;
+  word-wrap: break-word;
+}
+.linewidthall {
+  width: 70% !important;
+  word-wrap: break-word;
+}
+.linewidtspecific {
+  height: 500px;
+  padding-top: 20% !important;
+  padding-bottom: 20% !important;
+}
+// MEDIA-QUERRIES
+
+@media (max-width: 992px) {
+  .body-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .footer-date-display {
+    margin-top: 5px !important;
+  }
+  .linewidth,
+  .linewidthall {
+    width: 80% !important;
+    padding-left: 0px !important;
+  }
+  .post-card-res-img .card-res-img {
+    object-fit: fill;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-card-footer-content .text-font-15 {
+    font-size: 14.5px;
+  }
+  .expand {
+    margin-left: 0px;
+    left: 45%;
+  }
+  .linewidth,
+  .linewidthall {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  .linewidth,
+  .linewidtspecific {
+    height: 500px !important;
+  }
+  .linewidtspecific {
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+  }
+  .post-disp-title {
+    font-size: 18px !important;
+  }
+  .post-text-display-text {
+    font-size: 15.5px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .body-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .post-card-header-content img {
+    width: 25px;
+    height: 25px;
+  }
+  .post-card-header-content .post-card-header-text {
+    font-size: 14px !important;
+  }
+  .post-card-footer-content .text-font-15 {
+    font-size: 14px;
+  }
+  .post-card-footer-content .comments-link {
+    font-size: 14px;
+  }
+  .footer-date-display {
+    margin-top: 5px !important;
+    font-size: 12px !important;
+  }
+  .post-card-drop-menu a {
+    font-size: 14px;
+  }
+  .post-card-res-img .card-res-img {
+    width: 100%;
+    height: 450px;
+    object-fit: fill;
+  }
+  .pic-card-body-content {
+    height: 450px;
+  }
+  .expand {
+    margin-left: 0px;
+    left: 45%;
+  }
+  .linewidth,
+  .linewidthall {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  .linewidth,
+  .linewidtspecific {
+    height: 450px !important;
+  }
+  .linewidtspecific {
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+  }
+  .post-disp-title {
+    font-size: 16px !important;
+  }
+  .post-text-display-text {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .body-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .post-card-header-content img {
+    width: 25px;
+    height: 25px;
+  }
+  .post-card-header-content .post-card-header-text {
+    font-size: 14px !important;
+  }
+  .post-card-footer-content .text-font-15 {
+    font-size: 14px;
+  }
+  .post-card-footer-content .comments-link {
+    font-size: 14px;
+  }
+  .footer-date-display {
+    margin-top: 5px !important;
+    font-size: 12px !important;
+  }
+  .post-card-drop-menu a {
+    font-size: 14px;
+  }
+  .post-card-res-img .card-res-img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+  }
+  .pic-card-body-content {
+    height: 400px;
+  }
+  .expand {
+    margin-left: 0px;
+    left: 45%;
+  }
+  .linewidth,
+  .linewidthall {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  .linewidth,
+  .linewidtspecific {
+    height: 400px !important;
+  }
+  .linewidtspecific {
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+  }
+  .post-disp-title {
+    font-size: 16px !important;
+  }
+  .post-text-display-text {
+    font-size: 15px !important;
+  }
+}

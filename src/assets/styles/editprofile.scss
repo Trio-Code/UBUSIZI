@@ -1,0 +1,122 @@
+.edit-content {
+  border: 1px solid #d9d9d9;
+  background: white;
+  width: 60%;
+  margin: auto;
+}
+.estaff .eimg {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-position: top center;
+  position: relative;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.eimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.link {
+  font-size: small;
+  font-weight: bold;
+}
+.name {
+  font-size: large;
+  font-weight: bold;
+}
+.ptext {
+  font-weight: normal;
+  font-size: 10px;
+}
+.label {
+  font-weight: bold;
+}
+
+.edit-input {
+  border-color: #d9d9d9;
+  font-size: 15px;
+  color: black;
+  background-color: #fafafa;
+  height: 32px;
+  border-radius: 4px;
+
+  &:focus {
+    outline: none !important;
+    color: black;
+    border-color: black;
+    background-color: #fafafa;
+  }
+}
+.btn- {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  footer {
+    display: none;
+  }
+  .edit-content {
+    padding-bottom: 10% !important;
+  }
+  .edit-content .ptext {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .edit-content {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 15% !important;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .float-md-right {
+    float: none !important;
+  }
+  .edit-content .ptext {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .edit-content {
+    border-bottom: none;
+    background: transparent;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30% !important;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .edit-content .ptext {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .edit-content {
+    border-bottom: none;
+    background: transparent;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30% !important;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .edit-content .ptext {
+    font-size: 12px !important;
+  }
+}

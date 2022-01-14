@@ -1,0 +1,674 @@
+.addpost-header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: white;
+  padding-top: 15px;
+}
+
+.addpost-body {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-top: 3px;
+}
+
+.the-weight {
+  font-weight: 600;
+}
+
+.the-list {
+  list-style: none;
+}
+
+.the-link {
+  color: black;
+}
+
+.link-div {
+  align-items: center;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+.hor-separator {
+  border-top: 5px green;
+}
+
+.the-text-field {
+  height: 200px;
+  white-space: pre-line;
+  resize: none !important;
+}
+
+.form-control {
+  border-radius: 7px;
+}
+
+.box-color {
+  background-color: rgb(230, 230, 230);
+}
+
+.font-size-20 {
+  font-size: 18px;
+}
+
+.dropdown-btn {
+  background-color: rgb(230, 230, 230);
+  border-color: rgb(230, 230, 230);
+  width: 100%;
+}
+
+.font-separator {
+  padding-top: 8px;
+}
+
+.font-box {
+  padding: 3px 6px;
+  margin: 2px 3px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.col-md-8.my-2.text-right.pl-5 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.pst-img-div {
+  width: 100%;
+  height: 300px;
+}
+.image.add-pst-img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+
+.button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.clicked {
+  border-bottom: solid;
+}
+
+.upload-btn {
+  border: 1px;
+  background-color: rgb(230, 230, 230);
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.tbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.tbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.tbox-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.tbox-container:hover input ~ .tbox-checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.tbox-container input:checked ~ .tbox-checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the tbox-checkmark/indicator (hidden when not checked) */
+.tbox-checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the tbox-checkmark when checked */
+.tbox-container input:checked ~ .tbox-checkmark:after {
+  display: block;
+}
+
+/* Style the tbox-checkmark/indicator */
+.tbox-container .tbox-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.fbox-container {
+  display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 10px;
+}
+.align-container {
+  display: inline;
+  position: relative;
+  padding-left: 5px;
+  margin-bottom: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.fbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.fbox-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.fbox-container:hover input ~ .fbox-checkmark {
+  background-color: none;
+}
+
+/* When the checkbox is checked, add a blue background */
+.fbox-container input:checked ~ .fbox-checkmark {
+  content: '\2713';
+  color: $dark;
+  background-color: #ccc;
+}
+
+/* Create the tbox-checkmark/indicator (hidden when not checked) */
+.fbox-checkmark:after {
+  content: 'Font';
+  position: absolute;
+}
+
+/* Show the tbox-checkmark when checked */
+.fbox-container input:checked ~ .fbox-checkmark:after {
+  display: inline;
+}
+
+/* Style the tbox-checkmark/indicator */
+.fbox-container .fbox-checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+}
+
+// Poet Verification Page
+.font-size-15 {
+  font-size: 15px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+
+.reason-box {
+  height: 80px;
+}
+.the-text-field.form-control.font-brush-script {
+  font-size: 22px !important;
+}
+.font-brush-script.input-sm.form-control {
+  font-size: 19px !important;
+}
+.the-text-field.font-brush-script {
+  font-size: 22px !important;
+  line-height: 1.1;
+}
+
+.the-text-field.bg-color-orange::placeholder {
+  color: #f2f2f2 !important;
+  opacity: 0.8;
+}
+.the-text-field.bg-color-blue::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-gray::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-pink::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-green::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-light-red::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-sky-blue::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-dark::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.the-text-field.bg-color-purple::placeholder {
+  @extend .the-text-field.bg-color-orange::placeholder;
+}
+.pst-img-btn-content {
+  margin-left: 0px !important;
+}
+.text-set-change {
+  display: block !important;
+}
+.categ-choose-div {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.pst-caption-box {
+  height: 100px;
+  resize: none;
+}
+.pst-caption-box,
+.the-text-field {
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 30px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    opacity: 0.8;
+  }
+  &::-webkit-scrollbar-thumb:focus {
+    opacity: 0.8;
+  }
+}
+
+// ALIGNMENT CHECKBOXES
+.lbox-container {
+  display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.lbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.lbox-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.lbox-container:hover input ~ .lbox-checkmark {
+  background-color: none;
+}
+
+/* When the checkbox is checked, add a blue background */
+.lbox-container input:checked ~ .lbox-checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the lbox-checkmark/indicator (hidden when not checked) */
+.lbox-checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the lbox-checkmark when checked */
+.lbox-container input:checked ~ .lbox-checkmark:after {
+  display: none;
+}
+
+/* Style the lbox-checkmark/indicator */
+.lbox-container .lbox-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media (max-width: 992px) {
+  .color-rad-div {
+    padding-left: 0px !important;
+  }
+  .categ-choose-div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body {
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+    padding-bottom: 15% !important;
+  }
+  .col-md-8.my-2.text-right.pl-5 {
+    padding-left: 25px !important;
+    padding-right: 0px !important;
+  }
+  .row.pb-3.ml-3 {
+    margin-top: 15px !important;
+    margin-left: 15px !important;
+  }
+  .pst-img-btn-content button,
+  .row.pb-3.ml-3 button,
+  .pst-img-btn-content .upload-btn {
+    font-size: 16.5px !important;
+  }
+}
+@media (max-width: 768px) {
+  .addpost-body {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .add-pst-nav-select {
+    padding-left: 0px !important;
+  }
+  .add-pst-nav-select .button.mx-5 {
+    margin-left: 0px !important;
+    margin-right: 20% !important;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .add-pst-nav-select .font-size-18 {
+    font-size: 17px !important;
+    &:first-child {
+      font-size: 15px !important;
+    }
+  }
+  .addpost-body {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-bottom: 25% !important;
+  }
+  .addpost-body .row.mx-auto {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto form {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto .col-md-3.py-3 {
+    order: 1;
+  }
+  .addpost-body .row.mx-auto .col-md-9 {
+    order: 2;
+  }
+  .row.pb-3.ml-3 {
+    margin-top: 15px !important;
+    margin-left: 0px !important;
+  }
+  .pst-img-div {
+    width: 100%;
+    height: 400px;
+  }
+  .image.add-pst-img {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+  }
+  .col-md-8.my-2.text-right.pl-5 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .pst-img-btn-content {
+    margin-left: 0px !important;
+  }
+  .pst-img-btn-content button,
+  .row.pb-3.ml-3 button,
+  .pst-img-btn-content .upload-btn {
+    font-size: 16px !important;
+  }
+  .addpost-body .row.mx-auto .col-md-3.py-3,
+  .addpost-body .col-md-4.ml-auto.py-3 {
+    order: 1;
+  }
+  .addpost-body .row.mx-auto .col-md-9,
+  .col-md-8.my-2.text-right.pl-5 {
+    order: 2;
+  }
+}
+@media (max-width: 576px) {
+  .add-pst-nav-select {
+    padding-left: 0px !important;
+  }
+  .add-pst-nav-select .button.mx-5 {
+    margin-left: 0px !important;
+    margin-right: 40px !important;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .add-pst-nav-select .font-size-18 {
+    font-size: 15px !important;
+    &:first-child {
+      font-size: 14px !important;
+    }
+  }
+  .addpost-body {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-bottom: 25% !important;
+  }
+  .addpost-body .row.mx-auto {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto form {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto .col-md-3.py-3 {
+    order: 1;
+  }
+  .addpost-body .row.mx-auto .col-md-9 {
+    order: 2;
+  }
+  .row.pb-3.ml-3 {
+    margin-top: 15px !important;
+    margin-left: 0px !important;
+  }
+  .pst-img-div {
+    width: 100%;
+    height: 300px;
+  }
+  .image.add-pst-img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+  }
+  .col-md-8.my-2.text-right.pl-5 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .pst-img-btn-content {
+    margin-left: 0px !important;
+  }
+  .pst-img-btn-content button,
+  .row.pb-3.ml-3 button,
+  .pst-img-btn-content .upload-btn {
+    font-size: 15px !important;
+  }
+  .addpost-body .row.mx-auto .col-md-3.py-3,
+  .addpost-body .col-md-4.ml-auto.py-3 {
+    order: 1;
+  }
+  .addpost-body .row.mx-auto .col-md-9,
+  .col-md-8.my-2.text-right.pl-5 {
+    order: 2;
+  }
+}
+@media (max-width: 400px) {
+  .pst-img-div {
+    width: 100%;
+    height: 220px;
+  }
+  .image.add-pst-img {
+    width: 100%;
+    height: 220px;
+    object-fit: fill;
+  }
+}
+@media (max-width: 320px) {
+  .add-pst-nav-select {
+    padding-left: 0px !important;
+  }
+  .add-pst-nav-select .button.mx-5 {
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+    &:last-child {
+      margin-right: 0px !important;
+    }
+  }
+  .add-pst-nav-select .font-size-18 {
+    font-size: 15px !important;
+    &:first-child {
+      font-size: 14px !important;
+    }
+  }
+  .addpost-body {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+    padding-bottom: 25% !important;
+  }
+  .addpost-body .row.mx-auto {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto form {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .addpost-body .row.mx-auto .col-md-3.py-3 {
+    order: 1;
+  }
+  .addpost-body .row.mx-auto .col-md-9 {
+    order: 2;
+  }
+  .row.pb-3.ml-3 {
+    margin-top: 15px !important;
+    margin-left: 0px !important;
+  }
+  .pst-img-div {
+    width: 100%;
+    height: 200px;
+  }
+  .image.add-pst-img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+  .col-md-8.my-2.text-right.pl-5 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .pst-img-btn-content {
+    margin-left: 0px !important;
+  }
+  .pst-img-btn-content button,
+  .row.pb-3.ml-3 button,
+  .pst-img-btn-content .upload-btn {
+    font-size: 14px !important;
+  }
+  .addpost-body .row.mx-auto .col-md-3.py-3,
+  .addpost-body .col-md-4.ml-auto.py-3 {
+    order: 1;
+  }
+  .addpost-body .row.mx-auto .col-md-9,
+  .col-md-8.my-2.text-right.pl-5 {
+    order: 2;
+  }
+}

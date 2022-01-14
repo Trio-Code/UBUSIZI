@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.font-ubuntu {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+.font-brush-script {
+  font-family: 'Nanum Brush Script', cursive !important;
+}
+.font-french-script {
+  font-family: 'IM Fell French Canon SC', serif !important;
+}
+.font-sansita-swashed {
+  font-family: 'Sansita Swashed', cursive !important;
+}
+.font-garamond {
+  font-family: 'EB Garamond', serif !important;
+}
+.font-acme {
+  font-family: 'Acme', sans-serif !important;
+}
+
+// COLORS
+
+.bg-color-light-orange {
+  background-color: #ffe0b7 !important;
+  color: black !important;
+}
+.bg-color-orange {
+  background-color: #fa9917 !important;
+  color: #fff !important;
+}
+.bg-color-blue {
+  background-color: #39f !important;
+  color: #fff !important;
+}
+.bg-color-gray {
+  background-color: #4f4f4f !important;
+  color: #fff !important;
+}
+.bg-color-pink {
+  background-color: #f36 !important;
+  color: #fff !important;
+}
+.bg-color-green {
+  background-color: #2ac940 !important;
+  color: #fff !important;
+}
+.bg-color-light-red {
+  background-color: #ff5f58 !important;
+  color: #fff !important;
+}
+.bg-color-sky-blue {
+  background-color: #5181b8 !important;
+  color: #fff !important;
+}
+.bg-color-dark {
+  background-color: #070a12 !important;
+  color: #fff !important;
+}
+.bg-color-purple {
+  background-color: #944dff !important;
+  color: #fff !important;
+}
+.font-color-light {
+  color: white;
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .text-card-body-content.font-sansita-swashed .post-text-display-text {
+    font-family: 'Sansita Swashed', cursive !important;
+  }
+  .text-card-body-content.font-ubuntu .post-text-display-text {
+    font-family: 'Ubuntu', sans-serif !important;
+  }
+  .text-card-body-content.font-brush-script .post-text-display-text {
+    font-family: 'Nanum Brush Script', cursive !important;
+  }
+  .text-card-body-content.font-french-script .post-text-display-text {
+    font-family: 'IM Fell French Canon SC', serif !important;
+  }
+  .text-card-body-content.font-garamond .post-text-display-text {
+    font-family: 'EB Garamond', serif !important;
+  }
+  .text-card-body-content.font-acme .post-text-display-text {
+    font-family: 'Acme', sans-serif !important;
+  }
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 320px) {
+}

@@ -1,0 +1,53 @@
+.separator {
+  padding-top: 30px;
+}
+.font-size {
+  font-size: 15px;
+}
+.alignment {
+  text-align: right;
+}
+.alignment-reverse {
+  padding-left: 0px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+}
+.spinner-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 320px) {
+  .alignment {
+    text-align: left !important;
+  }
+  .user {
+    display: inline-block !important;
+    padding-left: 0px !important;
+    align-content: left !important;
+  }
+}
+@media (max-width: 375px) {
+  .alignment {
+    text-align: left !important;
+  }
+  .user {
+    display: inline-block !important;
+    padding-left: 0px !important;
+    align-content: left !important;
+  }
+}
+@media (max-width: 425px) {
+  .alignment {
+    text-align: left !important;
+  }
+  .user {
+    display: inline-block !important;
+    padding-left: 0px !important;
+    align-content: left !important;
+  }
+}

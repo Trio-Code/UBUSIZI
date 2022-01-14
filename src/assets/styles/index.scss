@@ -1,0 +1,94 @@
+@import './variables';
+@import '~bootstrap/scss/bootstrap.scss';
+@import './forms.scss';
+@import './footer.scss';
+@import './navbar.scss';
+@import './post-card.scss';
+@import './post-modal.scss';
+@import './user-sidebar.scss';
+@import './adminSidebar.scss';
+@import './reportCard.scss';
+@import './dropdown.scss';
+@import './imgPreview.scss';
+@import './changepwd.scss';
+@import './search.scss';
+@import './editprofile.scss';
+@import './settings.scss';
+@import './user-profile.scss';
+@import './tooltip.scss';
+@import './modal.scss';
+@import './single-post.scss';
+@import './post.scss';
+@import './category.scss';
+@import './addpost.scss';
+@import 'colors-fonts.scss';
+@import './notification.scss';
+@import './social.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #fafafa;
+}
+
+.wrapper {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 10px;
+}
+
+.cursor-disabled {
+  cursor: not-allowed !important;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+.no-click {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.not-found-div {
+  padding-top: 12%;
+}
+.logo-content h4 {
+  font-family: 'Kaushan Script', cursive !important;
+  font-size: 35px;
+}
+.text-font-15 {
+  font-size: 15px;
+}
+
+.smooth-transition {
+  transition: 0.5s !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.open-font {
+  font-family: 'Kaushan Script', cursive !important;
+}
+
+.text-light-icon {
+  color: #ccc;
+}
+.text-light-dark {
+  color: #333333 !important;
+}
+.link-light-dark {
+  color: #333333 !important;
+}
