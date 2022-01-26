@@ -36,15 +36,23 @@ const Login = ({
     }
 
     const firebaseConfig = {
-      apiKey: 'AIzaSyCmL4fytMo04MkUF4_m3rik34jcKVk41sE',
-      authDomain: 'ubusizi-16418.firebaseapp.com',
-      databaseURL: 'https://ubusizi-16418.firebaseio.com',
-      projectId: 'ubusizi-16418',
-      storageBucket: 'ubusizi-16418.appspot.com',
-      messagingSenderId: '714626724464',
-      appId: '1:714626724464:web:ab3b8fec58651cd07c7ab5',
-      measurementId: 'G-Z6T4JZ9BQF',
+
+      apiKey: "AIzaSyBTVpUK0bVc1ArGRZP-4fofct3_rgh2pYY",
+    
+      authDomain: "ubusizi-1538d.firebaseapp.com",
+    
+      projectId: "ubusizi-1538d",
+    
+      storageBucket: "ubusizi-1538d.appspot.com",
+    
+      messagingSenderId: "671779084220",
+    
+      appId: "1:671779084220:web:19e79f37a5e74631953db9",
+    
+      measurementId: "G-WD59D7Q27Q"
+    
     };
+    
     if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
     }
