@@ -56,9 +56,9 @@ const TextCardBody = ({
         ) : (
           <>
             <div
-              className={`bg-color-${results.color} font-${results.font} ${css}`}
+              className={`bg-color-${results.color} font-${results.font} ${css} d-flex flex-column  align-items-center justify-content-center pt-5 pb-5`}
             >
-              {postlength <= 500 ? (
+              {postlength <= 700 ? (
                 <div
                   className={
                     results.align === 'text-center'
@@ -69,14 +69,15 @@ const TextCardBody = ({
                   }
                 >
                   <span
-                    className={`${results.align}  post-text-display-text linewidth`}
+                    className={` post-text-display-text linewidth`}
                   >
                     <h4
-                      className={`${results.align} font-weight-bold  text-font-20`}
+                      className={`${results.align} font-weight-thin  text-font-18`}
                     >
-                      {results.title}
+                      /{results.title}/
                     </h4>
                     {stanza}
+                    <p className='text-center'>__{results.owner.username}__</p>
                   </span>
                 </div>
               ) : (
